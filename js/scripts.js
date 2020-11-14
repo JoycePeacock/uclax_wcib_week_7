@@ -7,8 +7,8 @@ jQuery(function() {
 		if ( my_switch == false ) {
 			my_switch = true;
 
-		var imageUrl = 'images/bats.png'
-		var imageUrl2 - "images/clouds.png"
+		var imageUrl = '../images/bats.png'
+		var imageUrl2 - '../images/clouds.png'
 		$(this).html('Click for traditional baby').removeClass('btn-primary').addClass('btn-gothic');
 		$('body').css({'background-color': 'rgb(45, 5, 0)', 'background-image': 'url("+  imageUrl + ")'});
 		$('#my_image').attr('src', 'images/storkgoth.png');
