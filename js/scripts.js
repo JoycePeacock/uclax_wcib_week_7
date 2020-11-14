@@ -7,17 +7,15 @@ jQuery(function() {
 		if ( my_switch == false ) {
 			my_switch = true;
 
-		var imageUrl = "../images/clouds.png";
-		var image2Url = "../images/bats.png";
 
 		$(this).html('Click for traditional baby').removeClass('btn-primary').addClass('btn-gothic');
-		$('body').css({'background-color': 'rgb(45, 5, 0)', 'background-image': 'src','image2Url'});
+		$('body').css({'background-color': 'rgb(45, 5, 0)', 'background-image': 'src','images/bats.png'});
 		$('#my_image').attr('src', 'images/storkgoth.png');
 	} else {
 			my_switch = false;
 
 		$(this).html('Click for goth baby').removeClass('btn-gothic').addClass('btn-primary');
-		$('body').css({'background-color': 'rgb(187, 251, 211)', 'background-image': 'src', 'imageUrl'});
+		$('body').css({'background-color': 'rgb(187, 251, 211)', 'background-image': 'src', 'images/clouds.png'});
 		$('#my_image').attr('src', 'images/stork2.png');
 	}
 
