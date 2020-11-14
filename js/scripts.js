@@ -7,7 +7,6 @@ jQuery(function() {
 		if ( my_switch == false ) {
 			my_switch = true;
 
-
 		$(this).html('Click for traditional baby').removeClass('btn-primary').addClass('btn-gothic');
 		$('body').css('background-color': 'rgb(45, 5, 0)', 'background-image': 'url('../images/bats.png')';
 		$('#my_image').attr('src', 'images/storkgoth.png');
