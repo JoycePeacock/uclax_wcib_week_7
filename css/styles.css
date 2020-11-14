@@ -1,0 +1,25 @@
+body {
+  background-color: #bbfbd3;
+  background-image: url(../images/clouds.png);
+  background-size: cover;
+  font-family: sans-serif;
+  margin: 20px; }
+  body .square {
+    width: 100px;
+    height: 100px;
+    float: left; }
+    body .square.red {
+      background: red; }
+    body .square.green {
+      background: green; }
+  body .animal {
+    width: 50%;
+    height: auto; }
+
+header {
+  text-align: center; }
+
+.btn-gothic {
+  border: 1px solid #810064;
+  color: black;
+  background-color: white; }

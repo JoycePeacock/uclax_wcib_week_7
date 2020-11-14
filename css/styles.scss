@@ -1,13 +1,9 @@
 body {
+	background-color: rgb(187, 251, 211);
+	background-image: url(../images/clouds.png);
+	background-size: cover;
 	font-family: sans-serif;
 	margin: 20px;
-
-  .board {
-  	background: yellow;
-  	width: 300px;
-  	height: 300px;
-    margin-bottom: 20px;
-  }
 
   .square {
   	width: 100px;
@@ -24,7 +20,17 @@ body {
   }
 
   .animal {
-    width: 100px;
+    width: 50%;
     height: auto;
+
   }
+}
+header {
+	text-align: center;
+}
+
+.btn-gothic {
+	border: 1px solid rgb(129, 0, 100);
+	color: black;
+	background-color: white;
 }
